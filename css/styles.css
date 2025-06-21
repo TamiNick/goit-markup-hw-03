@@ -300,6 +300,7 @@ color: #434455;
 .team-list-items-photo {
     display: block;
     width: 100%;
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 .team-list-container {
